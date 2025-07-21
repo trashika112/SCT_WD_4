@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: palevioletred; /* White body */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #f8f9fa;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.form input,
+.form textarea,
+.form select {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #e9ecef; /* Soft gray */
+  color: #111;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #555; /* Slightly dark placeholder */
+}
+
+#submitBtn {
+  width: 100%;
+  padding: 16px;
+  background-color: #0abde3; /* Sky blue */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#submitBtn:hover {
+  background-color: #0984e3; /* Darker blue */
+  transform: scale(1.03);
+}
+
+.task-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.task-box {
+  background-color: #ffffff;
+  color: #222;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.task-box h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #111;
+}
+
+.task-box p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.task-box .task-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.task-box .task-buttons button {
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.task-box .edit-btn {
+  background-color: #0984e3;
+}
+
+.task-box .delete-btn {
+  background-color: #d63031;
+}
+
+.task-box .update-btn {
+  background-color: #00b894;
+}
+
+.task-box .edit-btn:hover {
+  background-color: #0652dd;
+}
+
+.task-box .delete-btn:hover {
+  background-color: #b71c1c;
+}
+
+.task-box .update-btn:hover {
+  background-color: #00917c;
+}
