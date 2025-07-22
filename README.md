@@ -11,6 +11,8 @@ A responsive and user-friendly **Task Manager Web Application** built using HTML
 - 🎯 Mark tasks as completed
 - 💾 Persistent storage using MongoDB
 
+##🔗 Live Demo: [https://scw4.netlify.app](https://scw4.netlify.app)
+
 ## 🌐 Technologies Used
 
 ### Frontend
@@ -68,7 +70,6 @@ node server.js
 
 ### 4. Open the Frontend
 Navigate to the `client/` folder and open `index.html` in your browser.
-
 
 ## License
 
