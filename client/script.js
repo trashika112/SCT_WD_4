@@ -1,4 +1,4 @@
-const apiUrl = ' https://sct-wd-4-3.onrender.com';
+const apiUrl = ' https://sct-wd-4-3.onrender.com/api/tasks';
 
 let editingTaskId = null;
 
